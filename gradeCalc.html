@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>حاسبة الدرجات 🎓🎓</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./calc.js"></script>
   </head>
-  <body>
+  <body class="bgc">
     <div class="wrapper">
       <h1>الحاسبة 🔢</h1>
 
       <div class="directions">أدخل درجاتك، كل درجة في الحقل الخاص بها</div>
 
-      <input id="Quizes" type="text" />
-      <input id="Midterm" type="text" />
-      <input id="FinalTest" type="text" />
-      <input id="Oral" type="text" />
+      <input id="Quizes" type="text" maxlength="2" />
+      <input id="Midterm" type="text" maxlength="2" />
+      <input id="FinalTest" type="text" maxlength="2" />
+      <input id="Oral" type="text" maxlength="2" />
 
       <input
         id="submitButton"
@@ -29,6 +30,9 @@
 
       <p>درجتك النهائية هي (بالأحرف)</p>
       <div id="final_grade"></div>
+      <br />
+      <br />
+      <div class="bbg" id="x"></div>
     </div>
   </body>
 </html>

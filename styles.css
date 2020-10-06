@@ -1,1 +1,26 @@
 /* 🎓 تحت هذا التعليق أتحفونا بتصاميمكم التي تليق بقدر حاسبة الدرجات */
+.bbg {
+  height: 100px;
+  width: 100px;
+}
+.bgc {
+  background-color: gold;
+  width: auto;
+  height: auto;
+}
+body {
+  background-color: coral;
+}
+
+body {
+  text-align: center;
+  display: flex;
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  background-color: gold;
+}
+
+.wrapper {
+  background-color: gold;
+}
